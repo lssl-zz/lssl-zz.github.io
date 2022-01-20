@@ -6,34 +6,35 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: SeungJun Lee
-title: Test Title
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 이 승준
+title: 책임감과 열정으로 게임 개발을 하는 클라이언트 프로그래머입니다.
+email: lsjwq@naver.com
+phone: 010-2976-3322
+website: https://blog.naver.com/lsjwq
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+#github_username:  sproogen
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +49,375 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  안녕하세요. 
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  무에서 유를 창조하는것을 즐기고 어떤한 재미를 만들어야 할지 아는 프로그래머입니다!
+  항상 자기개발과 초심을 잃지 않는 제 열정은 누구에게라도 지지 않습니다 :)
+
+  또한 유한 성격으로 팀작업간 트러블보다는 개발의 즐거움을 더 할수 있는 분위기로 만드는 능력도 있습니다.
+  즐거운 게임을 제작하는 즐거운 개발자가 되고 싶습니다 :)
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+ # - title: Projects # Title for the section
+ #   layout: list # Type of content section (list/text)
+ #   content:
+ #     - layout: top-middle
+ #       title: Super awesome project
+ #       link: github.com/sproogen
+ #       # link_text: Project Website
+ #       additional_links:
+ #         - title:  sproogen/modern-resume-theme
+ #           icon: fab fa-github
+ #           url: github.com/sproogen/modern-resume-theme
+ #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+ #         #   icon: fab fa-github
+ #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+ #       quote: >
+ #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+ #       description: | # this will include new lines to allow paragraphs
+ #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
-  - title: Experience # Title for the section
+
+  - title: Skills # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Framework
+ #       caption: 2010 - 2013
+ #       sub_title: BSc Computer Science
+ #       quote: >
+ #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          <mark>C++ :</mark> Gamebryo, MFC, WinAPI, DirectX<br />
+          <mark>Unity :</mark> NGUI, UGUI, TimeLine, Addressable, UnityAds, Admob, Firebase Auth<br />
+          <mark>Cloud Server :</mark> 뒤끝, Photon, GameSpark, Playfab
+
+      - layout: left
+        title: Language
+        description: | # this will include new lines to allow paragraphs
+          C, C++, C#, UniRx
+
+
+  - title: Company List # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 청양어패럴(ALStudio)
+#        link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
+        sub_title: Project - LastFantasy<br />메인 프로그래머
+        caption: 2019.12 - 현재(22.2-퇴사예정)
         quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+          <mark>Unity(2019.4.171f-LTS)</mark> <mark>UGUI</mark> <mark>GUILayout</mark> 
+          <mark>Time Line</mark> <mark>Addressable</mark> 
+          <mark>Unity IAP</mark> <mark>SNS Login</mark> <mark>Admob</mark><br />
+          <mark>수집 방치형 RPG</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+          <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Unity CDN</mark>
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+          ## Last Fantasy - Assigned Task
+            - 1.메인 로직 설계
+            >- 리소스 관리 : Addressable System
+            >- 씬 관리 Process 설계
+            >- UI : Panel, Popup 관리 시스템 및 뎁스 구조 설계
+            >- 툴팁 시스템 : 화면 영역 대응
+            >- 씬 분리(Addtive) : 스킬 미리보기 구조, 튜토리얼 구조
+            >- 스파인 : 스킨 시스템 구축
+            - 2.전투 시스템
+            >- 타임라인을 통한 전투 연출
+            >- 전투 모듈 개발 : 공격, 회복, 버프, 디버프, 면역, 상태이상, CC / 데미지 폰트 제작 및 적용
+            >- AI : 행동트리를 이용한 Auto 전투 시스템 제작
+            - 3.시스템
+            >- Addressable 자동 설정 시스템 구축
+            >- 젠킨스 : 빌드 자동화 시스템 구축
+            - 4.스케줄 관리(PD)
+            >- 개발팀(4인) + 기획팀(3인) + 아트팀(4인)
+            
+      - layout: left
+        title: ALStudio
+        link: https://www.youtube.com/watch?v=R0k07FRrlJw
+        link_text: 게임 리뷰 동영상(Youtube)
+        sub_title: Project - ElcritySaga(2021.1-서비스종료)<br />GoogleStore, OneStore 출시<br />선임 프로그래머
+        caption: 2019.12 - 현재
+        quote: >
+          <mark>Unity(2019.3.111f1)</mark> <mark>UGUI</mark> <mark>GUILayout</mark> 
+          <mark>Time Line</mark> <mark>Addressable</mark> 
+          <mark>Unity IAP</mark> <mark>SNS Login</mark> <mark>Firebase Auth</mark><br />
+          <mark>SRPG RPG</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+          <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Akamai CDN</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## Elcrity Saga - Assigned Task
+            - 1.컨텐츠
+            >- 대표 영웅 시스템 / 프로필 / 채팅 / 계정연동 / 경쟁전 : 순위, 주간, 월간 보상 / 인게임 필드 이벤트 / 대화 이벤트 / 유니크 스킬
+            >- Firebase Auth를 활용한 로그인 시스템 : Google, GoogleService(GPGS), Apple, Guest
+            >- Unity IAP 결제 시스템 : GoogleStore, AppStore(Test), OneStore
+            >- AI : 행동트리를 활용한 자동전투 시스템
+            - 2.시스템
+            >- Bundle System / Addressable system 구축
+            >- 젠킨스 : 번들 자동화, 빌드 자동화 시스템 구축
+            - 3.Tool
+            >- Dialogue : 대화이벤트 시스템
+            >- StageMap : 스테이지 제작 - 필드 속성
+            - 4. 라이브 패치 및 빌드
 
-  - title: Education # Title for the section
+      - layout: left
+        title: 엔퓨전
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - Eidos<br />GStar 2회 / 미출시<br />프로그래머(주임)
+        caption: 2018.7 - 2019.11
+        quote: >
+          <mark>Unity(2017.4)</mark> <mark>NGUI</mark> <mark>GUILayout</mark> 
+          <mark>TCG RPG</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+        description: | # this will include new lines to allow paragraphs
+          ## Eidos - Assigned Task
+            - 1.컨텐츠
+            >- UTC 시간관련 컨텐트 제작 : 업그레이드, 제작
+            >- 스파인(아웃게임) : 애니메이션 연출
+            >- 캐릭터 관련 컨텐츠 : 성장, 진화, 장비, 스킬트리
+            >- 건물 관련 컨텐츠 : 업그레이드, 획득, 제작, 강화, 경매, 판매
+            >- 로비 관련 컨텐츠 : 랜덤 상자, 이벤트, 메일(접속보상), 채팅, 인벤토리
+            >- 월드맵 관련 컨텐츠 : 캐릭터 이동, 덱 설정
+            - 2.Tool
+            >- Bundle Tool 제작 : 설정된 폴더를 번들로 작성 / Code버전별 폴더 관리 시스템
+            >- Prefab Tool 제작 : 프리팹 이름 규칙 적용 / 기능(버튼, 슬라이드, 스크롤 등) 자동 생성 기능
+            
+      - layout: left
+        title: 갈라랩
+        link: https://www.youtube.com/watch?v=Hjj4tNCHk-I
+        link_text: 게임 동영상(Youtube)[GalaLab - ElSalvador]
+        sub_title: Project - ElSalvador<br />CBT 2차<br />프로그래머(주임)
+        caption: 2018.3 - 2018.7
+        quote: >
+          <mark>Unity(2018.x)</mark> <mark>NGUI</mark> <mark>Unity Ads</mark><br />
+          <mark>MMO RPG</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br /> <mark>UniRx</mark><br />
+        description: | # this will include new lines to allow paragraphs
+          ## ElSalvador - Assigned Task
+            - 1.UniRx를 활용한 컨텐츠 구현
+            - 2.컨텐츠
+            >- 메일, 상점, 퀴즈, 업적, 뉴스(WebView), 절전모드
+            >- 연출 : 보상 연출
+            - 2.Unity Ads
+            >- 보상형 광고 연동
+
+      - layout: left
+        title: 쥬신게임아카데미
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: 강의 및 게임개발
+        caption: 2015.5 - 2017.9
+        quote: >
+          <mark>Unity</mark> <mark>NGUI</mark> <mark>UGUI</mark> <mark>포톤 네트워크</mark><br />
+          <mark>Visual Studio 2008</mark> <mark>Monodevelop</mark> <mark>C++</mark> <mark>C#</mark>
+          <mark>WindowAPI</mark> <mark>MFC</mark> <mark>Direct9(2D)</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## Assigned Task
+            - 1.C/C++/C#
+            >- 자료형 / 표기법 / 연산자 / 분기문 / 포인터 / 배열 / 구조체 / 함수 / 동적할당 / 파일입출력 / 함수포인터 / Class(접근제한 지정자, 캡슐화, 은닉성, 상속, 다향성, 생성자, 소멸자) / 함수 오버로딩, 오버라이딩 / 템플릿 / 연산자 오버로딩 / STL(Stack, Queue, Vector, List, Map)
+            - 2.Win API
+            >- 윈도우 좌표계의 이해 / 버퍼의 이해 / 디자인 패턴 / FMOD의 이해
+            - 3.DirectX
+            >- 벡터 / 행렬 / 내적 / 외적 / MFC / 랜더링 파이프 라인의 이해 / xml
+            - 4.Unity
+            >- Unity Editor인터페이스의 이해 / C#문법(람다, Action, GC의 이해, 코루틴, 인터페이스) / 2D, 3D게임 제작 / 이펙트(파티클) / 포톤네트워크를 이용한 3D 게임제작
+
+      - layout: left
+        title: 아이닉스소프트
+        link: https://www.youtube.com/watch?v=U1pPndjMrRc
+        link_text: 게임 동영상(Youtube)[inixsoft thanatos]
+        sub_title: Project - Thanatos<br />CBT 2차<br />프로그래머(사원)
+        caption: 2014.9 - 2015.5
+        quote: >
+          <mark>Gamebryo</mark> <mark>MFC</mark><br />
+          <mark>MMO RPG</mark> <mark>Window</mark><br />
+          <mark>Visual Studio 2008</mark> <mark>C++</mark> <mark>C#</mark><br />
+        description: | # this will include new lines to allow paragraphs
+          ## Thanatos - Assigned Task
+            - 1.UI 컨텐츠 구현
+            >- Tooltip, IteDropBox
+            >- 음향조절, 전체-창 모드 설정
+            - 2.런처 제작(MFC)
+            >- 업데이트 데이터 처리(버전별 압축파일:zip 해제)
+            >- 레이아웃 커스터마이징
+            - 3.Tool(MFC)
+            >- UI, Sound : 유지보수 및 xml 파싱, 파서 작업
+            - 4.통계
+            >- BugTrap 로컬 데이터 통계 뷰어 제작
+
+  - title: Self Developement # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - Eat Fish.shark<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>캐주얼</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          ## Eat Fish.shark - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 캐릭터 자이로 센서 이동
+            >- GPGS Plugin 연동
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - 야매 퇴마록<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>방치형 전투</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## 야매 퇴마록 - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 방치 전투 시스템
+            >- 퀘스트 설계
+            >- 버스 시스템(UTC)
+            >- 몬스터 FSM
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - 나는 리듬왕<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>캐주얼</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## 나는 리듬왕 - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 노드 관리
+            >- 오브젝트 풀링
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - 퍼즐 올림픽<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>퍼즐</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## 나는 리듬왕 - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 퍼즐 스냅 기능
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - 나는 찾기왕<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>퍼즐</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## 나는 찾기왕 - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 스테이지 제작 툴 : xml관리
+            >- 광고 연동 : Admob, UnityAds
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - 나는 기억왕<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>퍼즐</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## 나는 기억왕 - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 스테이지 모드 : 기본, 횟수, 이동, 블록
+            >- 아이템 구현
+            >- 셔플 알고리즘
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - 나는 퍼즐왕<br />GooglePlay Store 출시
+        caption: 2017.9 - 2018.2(구직활동)
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>퍼즐</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## 나는 퍼즐왕 - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 로컬 데이터 관리 : MD5를 활용한 암호화/복호화
+            >- 퍼즐 크기 자동 설정 : 클리핑
+
+
+  - title: Other work(Study) # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - Eat Fish.shark
+        caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>캐주얼</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## Eat Fish.shark - Assigned Task
+            - 1.핵심 R&D 내용
+            >- 캐릭터 자이로 센서 이동
+            >- GPGS Plugin 연동
+
+
+ # - title: Education # Title for the section
+ #   layout: list # Type of content section (list/text)
+ #   content:
+ #     - layout: left
+ #       title: Harvard University
+ #       caption: 2010 - 2013
+ #       sub_title: BSc Computer Science
+ #       quote: >
+ #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+ #       description: | # this will include new lines to allow paragraphs
+ #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+
+#          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+
+#  - title: A Little More About Me
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
