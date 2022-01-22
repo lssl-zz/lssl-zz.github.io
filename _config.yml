@@ -89,7 +89,7 @@ content:
  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           <mark>C++ :</mark> Gamebryo, MFC, WinAPI, DirectX<br />
-          <mark>Unity :</mark> NGUI, UGUI, TimeLine, Addressable, UnityIAP, UnityAds, Admob, Firebase Auth, GPGS<br />
+          <mark>Unity :</mark> NGUI, UGUI, TimeLine, Addressable, UnityIAP, UnityAds, Unity CDN<br />
           <mark>Cloud Server :</mark> 뒤끝, Photon, GameSpark, Playfab
 
       - layout: left
@@ -100,7 +100,7 @@ content:
       - layout: left
         title: ETC.
         description: | # this will include new lines to allow paragraphs
-          Visual Studio, Monodevelop, SVN, Redmine, Trello, Timetree, Jenkins
+          Visual Studio, Monodevelop, SVN, Redmine, Trello, Timetree, Admob, Firebase Auth, GoogleLogin, AppleLogin, GPGS, Jenkins
 
 
   - title: Company List # Title for the section
