@@ -49,12 +49,12 @@ darkmode: true
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  안녕하세요. 
+  안녕하세요.
 
-  무에서 유를 창조하는것을 즐기고 어떤한 재미를 만들어야 할지 아는 프로그래머입니다!
+  무에서 유를 창조하는 것을 즐기고 어떤한 재미를 만들어야 할지 아는 프로그래머입니다!
   항상 자기개발과 초심을 잃지 않는 제 열정은 누구에게라도 지지 않습니다 :)
 
-  또한 유한 성격으로 팀작업간 트러블보다는 개발의 즐거움을 더 할수 있는 분위기로 만드는 능력도 있습니다.
+  또한 유한 성격으로 팀작업간 트러블보다는 개발의 즐거움을 더 할 수 있는 분위기로 만드는 능력도 있습니다.
   즐거운 게임을 제작하는 즐거운 개발자가 되고 싶습니다 :)
 
 content:
@@ -96,6 +96,11 @@ content:
         title: Language
         description: | # this will include new lines to allow paragraphs
           C, C++, C#, UniRx
+
+      - layout: left
+        title: ETC.
+        description: | # this will include new lines to allow paragraphs
+          Visual Studio, Monodevelop, SVN, Redmine, Trello, Timetree, Jenkins
 
 
   - title: Company List # Title for the section
@@ -252,7 +257,7 @@ content:
             >- 레이아웃 커스터마이징
             - 3.Tool(MFC)
             >- UI, Sound : 유지보수 및 xml 파싱, 파서 작업
-            - 4.통계
+            - 4.통계(C#-WinForm)
             >- BugTrap 로컬 데이터 통계 뷰어 제작
 
   - title: Self Developement # Title for the section
@@ -333,7 +338,7 @@ content:
             ![퍼즐올림픽_완료](images/퍼즐올림픽_완료.png "퍼즐올림픽_완료"){: width="256" height="144"}
             - 1.핵심 R&D 내용
             >- 퍼즐 스냅 기능
-            >- 국기 모양 인덱스 기능
+            >- 국기 모양 인덱스관리 기능
 
       - layout: left
         title: funLAB
@@ -368,7 +373,7 @@ content:
           ## 나는 기억왕 - Assigned Task
             ![나는기억왕_스테이지](images/나는기억왕_스테이지.png "나는기억왕_스테이지"){: width="256" height="144"}
             - 1.핵심 R&D 내용
-            >- 스테이지 모드 : 기본, 횟수, 이동, 블록
+            >- 스테이지 모드 : 기본, 횟수, 이동, 블록, 1p/2p
             >- 아이템 구현
             >- 셔플 알고리즘
 
