@@ -106,7 +106,7 @@ content:
 #        link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Project - LastFantasy<br />메인 프로그래머
-        caption: 2019.12 - 현재(22.2-퇴사예정)
+        caption: 2019.12 - 현재(2022.2-퇴사예정)
         quote: >
           <mark>Unity(2019.4.171f-LTS)</mark> <mark>UGUI</mark> <mark>GUILayout</mark> 
           <mark>Time Line</mark> <mark>Addressable</mark> 
@@ -116,6 +116,8 @@ content:
           <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Unity CDN</mark>
         description: | # this will include new lines to allow paragraphs
           ## Last Fantasy - Assigned Task
+            ![LastFantasy_001](images/LastFantasy_001.png "LastFantasy_로비"){: width="256" height="144"}
+            ![LastFantasy_004](images/LastFantasy_004.png "LastFantasy_전투"){: width="256" height="144"}
             - 1.메인 로직 설계
             >- 리소스 관리 : Addressable System
             >- 씬 관리 Process 설계
@@ -417,7 +419,7 @@ content:
 #      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
 #      Look at this cool image  
-#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#      ![Trees](images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
