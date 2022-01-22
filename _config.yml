@@ -89,7 +89,7 @@ content:
  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
         description: | # this will include new lines to allow paragraphs
           <mark>C++ :</mark> Gamebryo, MFC, WinAPI, DirectX<br />
-          <mark>Unity :</mark> NGUI, UGUI, TimeLine, Addressable, UnityAds, Admob, Firebase Auth<br />
+          <mark>Unity :</mark> NGUI, UGUI, TimeLine, Addressable, UnityIAP, UnityAds, Admob, Firebase Auth, GPGS<br />
           <mark>Cloud Server :</mark> 뒤끝, Photon, GameSpark, Playfab
 
       - layout: left
@@ -110,7 +110,7 @@ content:
         quote: >
           <mark>Unity(2019.4.171f-LTS)</mark> <mark>UGUI</mark> <mark>GUILayout</mark> 
           <mark>Time Line</mark> <mark>Addressable</mark> 
-          <mark>Unity IAP</mark> <mark>SNS Login</mark> <mark>Admob</mark><br />
+          <mark>Unity IAP</mark> <mark>SNS Login</mark> <mark>Admob</mark> <mark>AI</mark><br />
           <mark>수집 방치형 RPG</mark> <mark>Mobile</mark><br />
           <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
           <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Unity CDN</mark>
@@ -150,10 +150,12 @@ content:
           <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Akamai CDN</mark>
         description: | # this will include new lines to allow paragraphs
           ## Elcrity Saga - Assigned Task
+            ![ElcritySaga_001](images/ElcritySaga_001.png "ElcritySaga_전투1"){: width="256" height="144"}
+            ![ElcritySaga_002](images/ElcritySaga_002.png "ElcritySaga_전투2"){: width="256" height="144"}
             - 1.컨텐츠
             >- 대표 영웅 시스템 / 프로필 / 채팅 / 계정연동 / 경쟁전 : 순위, 주간, 월간 보상 / 인게임 필드 이벤트 / 대화 이벤트 / 유니크 스킬
             >- Firebase Auth를 활용한 로그인 시스템 : Google, GoogleService(GPGS), Apple, Guest
-            >- Unity IAP 결제 시스템 : GoogleStore, AppStore(Test), OneStore
+            >- Unity IAP 결제 시스템 : GoogleStore, AppStore(Test-Sandbox), OneStore
             >- AI : 행동트리를 활용한 자동전투 시스템
             - 2.시스템
             >- Bundle System / Addressable system 구축
@@ -179,7 +181,7 @@ content:
             >- UTC 시간관련 컨텐트 제작 : 업그레이드, 제작
             >- 스파인(아웃게임) : 애니메이션 연출
             >- 캐릭터 관련 컨텐츠 : 성장, 진화, 장비, 스킬트리
-            >- 건물 관련 컨텐츠 : 업그레이드, 획득, 제작, 강화, 경매, 판매
+            >- 건물 관련 컨텐츠 : 업그레이드, 재화 획득, 아이템 제작, 아이템 강화, 경매, 판매
             >- 로비 관련 컨텐츠 : 랜덤 상자, 이벤트, 메일(접속보상), 채팅, 인벤토리
             >- 월드맵 관련 컨텐츠 : 캐릭터 이동, 덱 설정
             - 2.Tool
@@ -198,9 +200,11 @@ content:
           <mark>Visual Studio 2017</mark> <mark>C#</mark><br /> <mark>UniRx</mark><br />
         description: | # this will include new lines to allow paragraphs
           ## ElSalvador - Assigned Task
+            ![ElSalvador_001](images/ElSalvador_001.png "ElSalvador_전투"){: width="256" height="144"}
+            ![ElSalvador_002](images/ElSalvador_002.png "ElSalvador_컨텐츠_퀴즈"){: width="256" height="144"}
             - 1.UniRx를 활용한 컨텐츠 구현
             - 2.컨텐츠
-            >- 메일, 상점, 퀴즈, 업적, 뉴스(WebView), 절전모드
+            >- 메일, 상점, 퀴즈, 업적, 뉴스(WebView), 네임테그, 일일퀘스트, 인벤토리, 미션, 절전모드
             >- 연출 : 보상 연출
             - 2.Unity Ads
             >- 보상형 광고 연동
@@ -214,7 +218,7 @@ content:
         quote: >
           <mark>Unity</mark> <mark>NGUI</mark> <mark>UGUI</mark> <mark>포톤 네트워크</mark><br />
           <mark>Visual Studio 2008</mark> <mark>Monodevelop</mark> <mark>C++</mark> <mark>C#</mark>
-          <mark>WindowAPI</mark> <mark>MFC</mark> <mark>Direct9(2D)</mark>
+          <mark>WinAPI</mark> <mark>MFC</mark> <mark>DirectX9(2D)</mark>
         description: | # this will include new lines to allow paragraphs
           ## Assigned Task
             - 1.C/C++/C#
@@ -238,8 +242,10 @@ content:
           <mark>Visual Studio 2008</mark> <mark>C++</mark> <mark>C#</mark><br />
         description: | # this will include new lines to allow paragraphs
           ## Thanatos - Assigned Task
+            ![Thanatos_001](images/Thanatos_001.png "Thanatos_전투"){: width="256" height="144"}
+            ![Thanatos_002](images/Thanatos_002.png "Thanatos_런처"){: width="256" height="144"}
             - 1.UI 컨텐츠 구현
-            >- Tooltip, IteDropBox
+            >- Tooltip, ItemDropBox 등
             >- 음향조절, 전체-창 모드 설정
             - 2.런처 제작(MFC)
             >- 업데이트 데이터 처리(버전별 압축파일:zip 해제)
@@ -265,6 +271,7 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## Eat Fish.shark - Assigned Task
+            ![EatFish_001](images/EatFish_001.jpg "EatFish_스테이지"){: width="256" height="144"}
             - 1.핵심 R&D 내용
             >- 캐릭터 자이로 센서 이동
             >- GPGS Plugin 연동
@@ -282,10 +289,12 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## 야매 퇴마록 - Assigned Task
+            ![야매퇴마록_전투_사운드](images/야매퇴마록_전투_사운드.png "야매퇴마록_전투_사운드"){: width="144" height="256"}
+            ![야매퇴마록_보스](images/야매퇴마록_보스.png "야매퇴마록_보스"){: width="144" height="256"}
             - 1.핵심 R&D 내용
             >- 방치 전투 시스템
             >- 퀘스트 설계
-            >- 버스 시스템(UTC)
+            >- 버프 시스템(UTC)
             >- 몬스터 FSM
 
       - layout: left
@@ -301,6 +310,8 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## 나는 리듬왕 - Assigned Task
+            ![나는 리듬왕_탭](images/나는 리듬왕_탭.jpg "나는 리듬왕_UI"){: width="144" height="256"}
+            ![나는 리듬왕_콤보_프로그레스](images/나는 리듬왕_콤보_프로그레스.jpg "나는 리듬왕_메인"){: width="144" height="256"}
             - 1.핵심 R&D 내용
             >- 노드 관리
             >- 오브젝트 풀링
@@ -318,8 +329,11 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## 나는 리듬왕 - Assigned Task
+            ![퍼즐올림픽_메인](images/퍼즐올림픽_메인.png "퍼즐올림픽_메인"){: width="256" height="144"}
+            ![퍼즐올림픽_완료](images/퍼즐올림픽_완료.png "퍼즐올림픽_완료"){: width="256" height="144"}
             - 1.핵심 R&D 내용
             >- 퍼즐 스냅 기능
+            >- 국기 모양 인덱스 기능
 
       - layout: left
         title: funLAB
@@ -334,6 +348,7 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## 나는 찾기왕 - Assigned Task
+            ![나는 찾기왕_인게임](images/나는 찾기왕_인게임.png "나는 찾기왕_인게임"){: width="256" height="144"}
             - 1.핵심 R&D 내용
             >- 스테이지 제작 툴 : xml관리
             >- 광고 연동 : Admob, UnityAds
@@ -351,6 +366,7 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## 나는 기억왕 - Assigned Task
+            ![나는기억왕_스테이지](images/나는기억왕_스테이지.png "나는기억왕_스테이지"){: width="256" height="144"}
             - 1.핵심 R&D 내용
             >- 스테이지 모드 : 기본, 횟수, 이동, 블록
             >- 아이템 구현
@@ -369,6 +385,8 @@ content:
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
           ## 나는 퍼즐왕 - Assigned Task
+            ![나는 퍼즐왕_스테이지1](images/나는 퍼즐왕_스테이지1.jpg "나는 퍼즐왕_스테이지1"){: width="144" height="256"}
+            ![나는 퍼즐왕_스테이지2](images/나는 퍼즐왕_스테이지2.jpg "나는 퍼즐왕_스테이지2"){: width="144" height="256"}
             - 1.핵심 R&D 내용
             >- 로컬 데이터 관리 : MD5를 활용한 암호화/복호화
             >- 퍼즐 크기 자동 설정 : 클리핑
