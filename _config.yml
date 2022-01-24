@@ -120,7 +120,7 @@ content:
           <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
           <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Unity CDN</mark>
         description: | # this will include new lines to allow paragraphs
-          ## [Last Fantasy - Assigned Task](https://github.com/lssl-zz/Project_LastFantasy/blob/main/README.md)
+          ## [Last Fantasy - Assigned Task](https://github.com/lssl-zz/Project_LastFantasys/blob/main/README.md)
             ![LastFantasy_001](images/LastFantasy_001.png "LastFantasy_로비"){: width="256" height="144"}
             ![LastFantasy_004](images/LastFantasy_004.png "LastFantasy_전투"){: width="256" height="144"}
             - 1.메인 로직 설계
@@ -130,7 +130,7 @@ content:
             >- 툴팁 시스템 : 화면 영역 대응
             >- 씬 분리(Addtive) : 스킬 미리보기 구조, 튜토리얼 구조
             >- 스파인 : 스킨 시스템 구축
-            - 2.전투 시스템 [[Code-SampleView]](https://github.com/lssl-zz/Project_LastFantasy/blob/main/Info_LastFantasy.md)
+            - 2.전투 시스템 [[Code - SampleView]](https://github.com/lssl-zz/Project_LastFantasys/blob/main/Info_LastFantasy.md)
             >- 타임라인을 통한 전투 연출
             >- 전투 모듈 개발 : 공격, 회복, 버프, 디버프, 면역, 상태이상, CC / 데미지 폰트 제작 및 적용
             >- AI : 행동트리를 이용한 Auto 전투 시스템 제작
@@ -197,7 +197,7 @@ content:
         title: 갈라랩
         link: https://www.youtube.com/watch?v=Hjj4tNCHk-I
         link_text: 게임 동영상(Youtube)[GalaLab - ElSalvador]
-        sub_title: Project - ElSalvador<br />CBT 2차<br />프로그래머(주임)
+        sub_title: <u><span style="color=blue">Project - ElSalvador<br />CBT 2차<br />프로그래머(주임)</span></u>
         caption: 2018.3 - 2018.7
         quote: >
           <mark>Unity(2018.x)</mark> <mark>NGUI</mark> <mark>Unity Ads</mark><br />
@@ -238,7 +238,7 @@ content:
       - layout: left
         title: 아이닉스소프트
         link: https://www.youtube.com/watch?v=U1pPndjMrRc
-        link_text: 게임 동영상(Youtube)[inixsoft thanatos]
+        link_text: <span style="color=blue">게임 동영상(Youtube)[inixsoft thanatos]</span>
         sub_title: Project - Thanatos<br />CBT 2차<br />프로그래머(사원)
         caption: 2014.9 - 2015.5
         quote: >
