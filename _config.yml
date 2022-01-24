@@ -154,7 +154,7 @@ content:
           <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
           <mark>Jenkins</mark> <mark>LIAPP</mark> <mark>Akamai CDN</mark>
         description: | # this will include new lines to allow paragraphs
-          ## Elcrity Saga - Assigned Task
+          ## [Elcrity Saga - Assigned Task](https://www.youtube.com/watch?v=R0k07FRrlJw)
             ![ElcritySaga_001](images/ElcritySaga_001.png "ElcritySaga_전투1"){: width="256" height="144"}
             ![ElcritySaga_002](images/ElcritySaga_002.png "ElcritySaga_전투2"){: width="256" height="144"}
             - 1.컨텐츠
@@ -204,7 +204,7 @@ content:
           <mark>MMO RPG</mark> <mark>Mobile</mark><br />
           <mark>Visual Studio 2017</mark> <mark>C#</mark><br /> <mark>UniRx</mark><br />
         description: | # this will include new lines to allow paragraphs
-          ## ElSalvador - Assigned Task
+          ## [ElSalvador - Assigned Task](https://www.youtube.com/watch?v=Hjj4tNCHk-I)
             ![ElSalvador_001](images/ElSalvador_001.png "ElSalvador_전투"){: width="256" height="144"}
             ![ElSalvador_002](images/ElSalvador_002.png "ElSalvador_컨텐츠_퀴즈"){: width="256" height="144"}
             - 1.UniRx를 활용한 컨텐츠 구현
@@ -246,7 +246,7 @@ content:
           <mark>MMO RPG</mark> <mark>Window</mark><br />
           <mark>Visual Studio 2008</mark> <mark>C++</mark> <mark>C#</mark><br />
         description: | # this will include new lines to allow paragraphs
-          ## Thanatos - Assigned Task
+          ## [Thanatos - Assigned Task](https://www.youtube.com/watch?v=U1pPndjMrRc)
             ![Thanatos_001](images/Thanatos_001.png "Thanatos_전투"){: width="256" height="144"}
             ![Thanatos_002](images/Thanatos_002.png "Thanatos_런처"){: width="256" height="144"}
             - 1.UI 컨텐츠 구현
@@ -396,26 +396,110 @@ content:
             >- 로컬 데이터 관리 : MD5를 활용한 암호화/복호화
             >- 퍼즐 크기 자동 설정 : 클리핑
 
-
-  - title: Other work(Study) # Title for the section
+  - title: Other work # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: funLAB
 #        link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Project - 테스트
-        caption: 2021.1 - 2021.12
+        sub_title: Project - SuperPepper(Study)
+ #       caption: 2021.1 - 2021.12
         quote: >
-          <mark>Unity(2017 / 2018)</mark> <mark>NGUI</mark><br />
+          <mark>Unity(2020.1.10)</mark> <mark>UGUI</mark><br />
+          <mark>캐주얼</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+          <mark>뒤끝</mark> <mark>AI</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## [SuperPepper - Assigned Task](https://github.com/lssl-zz/SuperPepper/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- 방치형 전투
+            >- 발사체 포물선 처리
+            >- 배경 스크롤 자동화
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - KingOfHero(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2020.1.10)</mark> <mark>UGUI</mark><br />
+          <mark>캐주얼</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+          <mark>JoyStick</mark> <mark>Spine</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## [KingOfHero - Assigned Task](https://github.com/lssl-zz/KingOfHero/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- 스파인 스킨 변경
+            >- 조이스틱 이동
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - KingdomDefense(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2020.1.10)</mark> <mark>UGUI</mark><br />
+          <mark>디펜스</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+          <mark>NavigationMesh-2D</mark> <mark>Spine</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## [KingdomDefense - Assigned Task](https://github.com/lssl-zz/KingdomDefense/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- 2D 네비게이션 처리
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - TRIBE(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2018.1.3f1)</mark> <mark>NGUI</mark><br />
+          <mark>디펜스</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>Spine</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## [TRIBE - Assigned Task](https://github.com/lssl-zz/TRIBE/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- 건물 제작 시스템
+            >- 컷씬(대화 이벤트)
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - CatTowerRun(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2018.1.3f1)</mark> <mark>NGUI</mark><br />
+          <mark>러너</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>Spine</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## [CatTowerRun - Assigned Task](https://github.com/lssl-zz/CatTowerRun/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- 영역 그랩 처리
+            >- 적군 패턴 객체화
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - KkingCha(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2020.1.10)</mark> <mark>NGUI</mark><br />
           <mark>캐주얼</mark> <mark>Mobile</mark><br />
           <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
-          <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
+          <mark>Spine</mark>
         description: | # this will include new lines to allow paragraphs
-          ## Eat Fish.shark - Assigned Task
+          ## [KkingCha - Assigned Task](https://github.com/lssl-zz/KkingCha/blob/main/README.md)
             - 1.핵심 R&D 내용
-            >- 캐릭터 자이로 센서 이동
-            >- GPGS Plugin 연동
+            >- 줄다리기 오브젝트
+          
 
 
  # - title: Education # Title for the section
