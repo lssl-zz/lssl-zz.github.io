@@ -488,6 +488,23 @@ content:
         title: funLAB
 #        link: boringcompany.com
         # link_text: boringcompany.com
+        sub_title: Project - LastTower(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2019.2.19)</mark> <mark>UGUI</mark><br />
+          <mark>3D디펜스</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>3DNavigation</mark>
+        description: | # this will include new lines to allow paragraphs
+          ## [LastTower - Assigned Task](https://github.com/lssl-zz/LastTower/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- 3D Navigation Bake
+            >- 동적 베이크
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
         sub_title: Project - KkingCha(Study)
  #       caption: 2021.1 - 2021.12
         quote: >
