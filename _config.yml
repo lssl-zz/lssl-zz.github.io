@@ -433,6 +433,7 @@ content:
             - 1.핵심 R&D 내용
             >- 스파인 스킨 변경
             >- 조이스틱 이동
+            >- Y소팅 처리
 
       - layout: left
         title: funLAB
