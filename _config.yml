@@ -509,9 +509,9 @@ content:
         sub_title: Project - KkingCha(Study)
  #       caption: 2021.1 - 2021.12
         quote: >
-          <mark>Unity(2020.1.10)</mark> <mark>NGUI</mark><br />
+          <mark>Unity(2020.1.10)</mark> <mark>UGUI</mark><br />
           <mark>캐주얼</mark> <mark>Mobile</mark><br />
-          <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
           <mark>Spine</mark>
         description: | # this will include new lines to allow paragraphs
           ## [KkingCha - Assigned Task](https://github.com/lssl-zz/KkingCha/blob/main/README.md)
