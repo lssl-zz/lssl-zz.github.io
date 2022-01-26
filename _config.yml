@@ -333,7 +333,7 @@ content:
           <mark>Visual Studio 2017</mark> <mark>C#</mark><br />
           <mark>CSV</mark> <mark>Json</mark> <mark>Xml</mark> <mark>Text</mark>
         description: | # this will include new lines to allow paragraphs
-          ## 나는 리듬왕 - Assigned Task
+          ## 퍼즐 올림픽 - Assigned Task
             ![퍼즐올림픽_메인](images/퍼즐올림픽_메인.png "퍼즐올림픽_메인"){: width="256" height="144"}
             ![퍼즐올림픽_완료](images/퍼즐올림픽_완료.png "퍼즐올림픽_완료"){: width="256" height="144"}
             - 1.핵심 R&D 내용
