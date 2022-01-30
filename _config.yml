@@ -100,7 +100,7 @@ content:
       - layout: left
         title: ETC.
         description: | # this will include new lines to allow paragraphs
-          VisualStudio, Monodevelop, VisualStudioCode,Markdown, SVN, Redmine, Trello, Timetree, Admob, Firebase Auth, GoogleLogin, AppleLogin, GPGS, Jenkins
+          VisualStudio, Monodevelop, VisualStudioCode, Markdown, SVN, Redmine, Trello, Timetree, Admob, Firebase Auth, GoogleLogin, AppleLogin, GPGS, Jenkins
 
 
   - title: Company List # Title for the section
