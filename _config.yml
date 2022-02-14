@@ -517,6 +517,26 @@ content:
           ## [KkingCha - Assigned Task](https://github.com/lssl-zz/KkingCha/blob/main/README.md)
             - 1.핵심 R&D 내용
             >- 줄다리기 오브젝트
+
+
+      - layout: left
+        title: funLAB
+#        link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: Project - HexaPuzzle(Study)
+ #       caption: 2021.1 - 2021.12
+        quote: >
+          <mark>Unity(2020.1.10)</mark> <mark>UGUI</mark><br />
+          <mark>캐주얼</mark> <mark>Mobile</mark><br />
+          <mark>Visual Studio 2019</mark> <mark>C#</mark><br />
+        description: | # this will include new lines to allow paragraphs
+          ## [HexaPuzzle - Assigned Task](https://github.com/lssl-zz/HexaPuzzle/blob/main/README.md)
+            - 1.핵심 R&D 내용
+            >- Hexa 퍼즐의 이해
+            >- Hexa 방향 검사
+            >- Hexa 매칭 검사
+            >- Hexa 생성 규칙
+            
           
 
 
